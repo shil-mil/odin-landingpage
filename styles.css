@@ -142,6 +142,41 @@ a:hover {
     font-weight: 700;
 }
 
+.signup {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.signup .content {
+    height: 40%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signuptitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 10%;
+    height: 30%;
+}
+
 .footer {
     color: #E5E7EB;
 }
@@ -157,5 +192,17 @@ a:hover {
     .infocontainer {
         flex-direction: column;
         align-items: center;
+    }
+
+    .signup .content {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .signup-button {
+        width: 25%;
+        height: 25%;
+        font-size: 16px;
     }
 }
