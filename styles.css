@@ -75,7 +75,6 @@ a:hover {
     width: 100%;
     max-width: 900px;
     height: auto;
-    flex: 1;
 }
 
 .header-button {
@@ -87,6 +86,40 @@ a:hover {
     width: 30%;
 }
 
+#info .content {
+    padding: 72px 36px 108px 36px;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 60px;
+    gap: 48px;
+}
+
+.info .text {
+    text-align: center;
+}
+
+.info {
+    max-width: 300px;
+}
+
+.infoimg {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
 .footer {
     color: #E5E7EB;
 }
@@ -96,6 +129,11 @@ a:hover {
     #header .content {
         flex-direction: column;
         padding: 108px 0;
+        align-items: center;
+    }
+
+    .infocontainer {
+        flex-direction: column;
         align-items: center;
     }
 }
