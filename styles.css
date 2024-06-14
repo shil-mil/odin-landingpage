@@ -120,6 +120,28 @@ a:hover {
     margin-bottom: 12px;
 }
 
+#quote {
+    background-color: #E5E7EB;
+    padding: 144px 60px;
+}
+
+#quote .content {
+    width: 60%;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-bottom: 12px;
+}
+
+.quoteauthor {
+    font-size: 24px;
+    text-align: right;
+    font-weight: 700;
+}
+
 .footer {
     color: #E5E7EB;
 }
